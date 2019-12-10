@@ -7,6 +7,12 @@ class Scrabble
 
   def scribble
     @fiveArray = ['k']
+    @twoArray = ['d', 'g']
+    @eightArray = ['j', 'x']
+    @tenArray = ['q', 'z']
+    @threeAray = ['b', 'c', 'm', 'p']
+    @fourArray = ['f', 'h', 'v', 'w', 'y']
+    @oneArray =  ['a', 'e', 'i', 'o', 'u', 'l', 'n', 'r', 's', 't' ]
     @points = 0
 
     letterArray = @word.downcase().split("")
